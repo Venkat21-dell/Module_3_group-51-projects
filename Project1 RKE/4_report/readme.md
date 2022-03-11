@@ -6,32 +6,6 @@ Remote keyless entry (RKE) system is a system designed to remotely lock or unloc
 
 
 
-REQUIREMENTS
-
-High Level Requirements:
-
-ID	Description
-
-HLR 1	When the blue switch is pressed for one time the doors should be locked.
-
-HLR 2	When the blue switch is pressed for two times then the door should be unlocked
-
-HLR 3	It shall ACTIVATE / DEACTIVATE THE ALARM
-
-HLR 4	It shall APPROACH LIGHT
-
-Low Level Requirements
-
-ID	Low Level Requirements for HL1		ID	Low Level Requirements for HL2
-
-LLR1.1	If the Button is pressed for one time, on all LED	
-
-LLR2.1	If the button is pressed twice Then off all the led	
-
-LLR3.1	If the button is pressed for three times, on all led in Clockwise direction
-
-LLR4.2	If the button is pressed for four times, on all led in Anti Clockwise direction
-
 
 SWOT ANALYSIS
 
