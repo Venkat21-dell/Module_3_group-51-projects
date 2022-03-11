@@ -25,7 +25,7 @@ It works by utilising radio signals sent by the vehicle and a key fob that looks
 ### Strength:
 When compared to unidirectional authentication, bi-directional authentication provides more security.
 Automatic Locking.
-In comparison to the mechanical key mechanism, it is a highly easy, convenient, and pleasant technology.
+In comparison to the mechanical key mechanism, it is a highly easy, convenient, and pleasant technology. 
 
 ### Weakness:
 The price is prohibitively expensive.
