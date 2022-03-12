@@ -9,7 +9,7 @@
  * 
  * @return flag 
  */
-int encrypt() // function made by K Mohammad Habeeb 
+int encrypt() // function made by 
 
 { 
    bool flag = false;
@@ -40,7 +40,7 @@ int encrypt() // function made by K Mohammad Habeeb
     * @brief Here we have made a function for alarm status, where all the LEDs are in off condition
     * 
     */
-   void alarm_status (void)    // Code By Tanmay
+   void alarm_status (void)    
    {
       GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12, 0); // Green LED
       GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13, 0); // Orange LED
@@ -81,7 +81,7 @@ int encrypt() // function made by K Mohammad Habeeb
     * @brief Here we have made a function for door status, where all the LEDs are turned ON in anti-clockwise sequence
     * 
     */
-   void Door_status(void) // The logic for this function was given by Sharath
+   void Door_status(void)
    {
       delay();
       GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_15); // Blue LED
