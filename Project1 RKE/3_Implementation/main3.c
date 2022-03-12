@@ -62,7 +62,7 @@ int encrypt()
 
    }
    
-   void Approach_Light(void) // The logic for this function was given by Sharath
+   void Approach_Light(void) 
    {
       delay();
       GPIO_ToggleOutputPin(GPIOD, GPIO_PIN_NO_15); // Blue LED
