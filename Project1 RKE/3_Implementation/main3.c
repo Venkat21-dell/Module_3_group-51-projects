@@ -9,7 +9,7 @@
  * 
  * @return flag 
  */
-int encrypt() // function made by K Mohammad Habeeb 
+int encrypt() 
 
 { 
    bool flag = false;
@@ -40,7 +40,7 @@ int encrypt() // function made by K Mohammad Habeeb
     * @brief Here we have made a function for alarm status, where all the LEDs are in off condition
     * 
     */
-   void unlock (void)    // Code By Tanmay
+   void unlock (void)   
    {
       GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12, 0); // Green LED
       GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13, 0); // Orange LED
@@ -52,7 +52,7 @@ int encrypt() // function made by K Mohammad Habeeb
     * @brief Here we have made a function for window, where all the LEDs are in on condition
     * 
     */
-   void lock (void)    // Code by Sharath
+   void lock (void)   
    {
       GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12, 1);  // Green LED
       GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13, 1);  // Orange LED
