@@ -1,7 +1,7 @@
 # Module_3_group-51-projects
 
 
-This project is done by
+This group project is done by
 
 99007787-Rohith Ramamoorthy
 
